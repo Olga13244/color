@@ -1,0 +1,183 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+
+header {
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: rgb(0, 247, 255);
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 36px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+p {
+    font-size: 24px;
+}
+
+.info {
+    flex-wrap: wrap;
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    max-width: 1100px;
+}
+
+article {
+    background-color: white;
+    padding: ;
+    width: 400px;
+    margin: 15px;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: rgb(211, 11, 11);
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    display: block;
+}
+
+footer {
+    background-color: white;
+    padding: ;
+    display: flex;
+    }
+
+footer a {
+    margin-right: ;
+}
+
+footer p {
+    font-size: 24px;
+}
+
+
+.button:hover{
+    background-color: yellowgreen;
+}
+
+.nav-link:hover{
+    color: rgb(204, 185, 15);
+    font-size: 24px;
+    border-bottom: 2px dotted purple;
+}
+
+.post-text{
+    font-size: 24px;
+}
+
+.post:hover{
+    background-color: green;
+    color: hotpink;
+}
+
+.img-hit{
+    position: absolute;
+    display: inline-block;
+    right: 20px;
+    top: 50px;
+}
+
+.aside{
+    position: fixed;
+    right: o;
+    top: 230px;
+    background-color: indigo;
+    border-radius: 10px;
+    width: 100px;
+    height: 390px;
+    padding: 20px;
+}
+
+.social{
+    width: 50px;
+    display: block;
+    margin: 0px 0px 25px 25px;
+}
+
+.aside-text{
+    font-size: 20px;
+    color: white;
+}
+
+.address::before{
+    content: url(https://www.flaticon.com/free-icon/home_25694?term=home&page=1&position=1&origin=search&related_id=25694);
+    width: 2opx;
+    height: 20px;
+    display: inline-block;
+}
+
+.post-text{
+    font-size: 24px;
+}
+
+.post{
+    background-color: white;
+    padding: 15px 45px 30px 45px;
+    width: 400px;
+    margin: 20px;
+    position: relative;
+}
+
+.post:hover .img-hit{
+    border: 5px dotted orangered;
+    border-radius: 50%;
+}
+
+.post:hover .post-text {
+    font-size: 25px;
+}
+
+.post:hover .article-but {
+    border: 5px solid white;
+    background-color: white;
+    color: red;
+}
+
+.social:hover{
+    border-bottom: 10px orange;
+}
+
+.aside-text:hover{
+    color: orange;
+}
+
+.aside-text:hover::before {
+    content: url("https://mars.algoritmika.org/uploads/2021/03/bulb-29050_0_1615894644.svg");
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
